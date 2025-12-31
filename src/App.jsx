@@ -5,7 +5,6 @@ import logo from './assets/logo.jpg';
 function App() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [name, setName] = useState('');
-  const [chooseoption, setChooseOption] = useState(false);
 
   return (
     <div className="main-container">
@@ -81,6 +80,9 @@ function App() {
       <button className="join-contest-btn" onClick={() => alert('Joined the contest!')}>
         Join contest
       </button>
+
+      {/* Collection section display iteam from backend */}
+
     </div>
   );
 }

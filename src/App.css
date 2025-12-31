@@ -22,7 +22,7 @@
 .logo-title {
   font-size: 1.5rem;
   margin: 0;
-  color: rgb(75, 219, 75);
+  color: rgb(59, 191, 59);
   font-weight: 700;
 }
 .nav-links {
@@ -155,6 +155,20 @@
   font-size: 0.8rem;
   text-shadow: 0 2px 6px rgba(148, 148, 148, 0.25);
 }
+.join-contest-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 40%;
+  background-color:rgb(59, 191, 59);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+
+
 
 @keyframes slideGradient {
   0% { background-position: 0% 50%; }
